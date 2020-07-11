@@ -21,11 +21,11 @@ Each of the next **t** pairs of lines are as follows:
 
 **Constraints**</br>
 - 1 ≤ t ≤ 10
-- 1 ≤ n ≤ 10^5
+- 1 ≤ n ≤ 10<sup>5</sup>
 
 **Subtasks**</br>
-For **60%** score 1 ≤ n ≤ 10^3</br>
-For **100%** score 1 ≤ n ≤ 10^5
+For **60%** score 1 ≤ n ≤ 10<sup>3</sup></br>
+For **100%** score 1 ≤ n ≤ 10<sup>5</sup>
 
 **Output Format**</br>
 Print an integer denoting the minimum number of bribes needed to get the queue into its final state. Print Too chaotic if the state is invalid, i.e. it requires a person to have bribed more than **2** people.
