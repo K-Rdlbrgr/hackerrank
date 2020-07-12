@@ -10,16 +10,19 @@ Fascinated by this chaotic queue, you decide you must know the minimum number of
 Complete the function minimumBribes in the editor below. It must print an integer representing the minimum number of bribes necessary, or Too chaotic if the line configuration is not possible.
 
 minimumBribes has the following parameter(s):
+
 - q: an array of integers
 
 **Input Format**</br>
 The first line contains an integer **t**, the number of test cases.
 
-Each of the next **t** pairs of lines are as follows: 
-- The first line contains an integer **t**, the number of people in the queue 
+Each of the next **t** pairs of lines are as follows:
+
+- The first line contains an integer **t**, the number of people in the queue
 - The second line has **n** space-separated integers describing the final state of the queue.
 
 **Constraints**</br>
+
 - 1 ≤ t ≤ 10
 - 1 ≤ n ≤ 10<sup>5</sup>
 

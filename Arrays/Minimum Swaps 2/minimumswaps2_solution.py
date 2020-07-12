@@ -2,8 +2,8 @@ def minimumSwaps(arr):
     # Assigning initial swap counter and an empty dictionary for the indeces
     swap_counter = 0
     indeces = {}
-    
-    # Looping through the array of numbers, saving them as keys and their indeces as values 
+
+    # Looping through the array of numbers, saving them as keys and their indeces as values
     for i, entry in enumerate(arr):
         indeces[entry] = i
 
@@ -21,7 +21,8 @@ def minimumSwaps(arr):
     # Returning the amount of swaps
     return swap_counter
 
-# To be more efficient, a dictionary is used to store the indeces and used to find the correct index for a specific number. Leaving the dictionary out and using the built-in .index function every time a index for a number needs to be picked would result in a longer run-time, since the index functions has to loop through the whole array 
+# To be more efficient, a dictionary is used to store the indeces and used to find the correct index for a specific number. Leaving the dictionary out and using the built-in .index function every time a index for a number needs to be picked would result in a longer run-time, since the index functions has to loop through the whole array
+
 
 # Test
 arr = [1, 3, 5, 2, 4, 6, 7]

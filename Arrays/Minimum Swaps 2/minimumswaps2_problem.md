@@ -20,9 +20,11 @@ It took **5** swaps to sort the array.
 Complete the function minimumSwaps in the editor below. It must return an integer representing the minimum number of swaps to sort the array.
 
 minimumSwaps has the following parameter(s):
+
 - arr: an unordered array of integers
 
 **Input Formats**</br>
+
 - 1 ≤ n ≤ 10<sup>5</sup>
 - 1 ≤ arr[i] ≤ n
 
